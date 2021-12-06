@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#inicio{
+    background-image: linear-gradient(to top,rgb(192, 249, 85), rgb(107, 245, 66));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-governo{
+    height: 340px;
+    width: 600px; 
+}
+#lupa{
+    height: 45px;
+    width: 45px; 
+}   
