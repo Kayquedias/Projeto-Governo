@@ -3,17 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
-#inicio{
+#inicio {
     background-image: linear-gradient(to top,rgb(192, 249, 85), rgb(107, 245, 66));
+}
+
+#inicio div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#logo-governo{
+
+#logo-governo {
     height: 340px;
     width: 600px; 
 }
-#lupa{
+
+#lupa {
     height: 45px;
     width: 45px; 
 }   
+
+/* side bar menu lateral */
+
+.menu {
+    display: block;
+}
