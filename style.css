@@ -1,13 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 #inicio {
-    background-image: linear-gradient(to top,rgb(192, 249, 85), rgb(107, 245, 66));
+    background-image: linear-gradient(to top, rgb(192, 249, 85), rgb(107, 245, 66));
+    max-height: 50vh;
 }
 
-#inicio div {
+#inicio div:nth-child(2) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,16 +17,37 @@
 
 #logo-governo {
     height: 340px;
-    width: 600px; 
+    width: 600px;
 }
 
 #lupa {
     height: 45px;
-    width: 45px; 
-}   
+    width: 45px;
+}
 
 /* side bar menu lateral */
 
+.sidebar {
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #ffff00;
+    transition: 1s;
+}
+
 .menu {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+
+    cursor: pointer;
+}
+
+ul {
     display: block;
+    list-style: none;
+    transition: 1s;
 }

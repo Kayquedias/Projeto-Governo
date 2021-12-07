@@ -12,9 +12,9 @@
 <body>
     <header>
         <div id="inicio">
-            <span class="side-bar">
-                <img src="imagens/menu-hamburguer.png" alt="menu" class="menu">
-            </span>
+            <div>
+                <img src="imagens/menu-hamburguer.png" alt="menu" class="menu" onclick="sidebar()">
+            </div>
             <div>
                 <img src="https://www.ceara.gov.br/wp-content/themes/ceara2017/assets/images/logotipo-ceara-branco-2021.svg"
                     id="logo-governo" alt="logo-governo">
@@ -22,8 +22,29 @@
                 <img src="https://cdn-icons-png.flaticon.com/128/13/13311.png" id="lupa" alt="lupa">
                 <p>Pesquise aqui</p>
             </div>
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Governo</a></li>
+                    <li><a href="#">INSS</a></li>
+                    <li><a href="#">Previdência Social</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            
         </div>
     </header>
-</body>
 
+    <script>
+        const sidebar = () => {
+            let menu = false
+            if (!menu) {
+                document.querySelector('.sidebar').style.width = '250px'
+            } else {
+                console.log('foi')
+                document.getElementsByClassName('sidebar').style.width = '250px'
+            };
+        };
+    </script>
+</body>
 </html>
