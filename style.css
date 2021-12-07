@@ -4,27 +4,41 @@
     box-sizing: border-box;
 }
 #inicio {
-    background-image: linear-gradient(to top,rgb(192, 249, 85), rgb(107, 245, 66));
-}
-
-#inicio div {
+    height: 800px;
+    width: auto;
+    background-image: url("imagens/igm-fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    position: relative;
+}
+#onda1{
+    z-index: 0;
+    height: 400px;
+    width: 100%;
     justify-content: center;
-    align-items: center;
 }
-
-#logo-governo {
-    height: 340px;
-    width: 600px; 
+#lua{
+    z-index: 1;
+    height: 100px;
+    width: 100px;
 }
-
-#lupa {
-    height: 45px;
-    width: 45px; 
-}   
-
-/* side bar menu lateral */
-
+#menu{
+    height: 50px;
+    width: 50px;
+}
+#logo-ceara{
+    margin-top: 50px;
+    width: 600px;
+}
+#menu{
+    height: 50px;
+    width: 50px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
 .menu {
     display: block;
 }
