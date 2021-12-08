@@ -21,6 +21,14 @@
 
     display: flex;
 }
+
+.onda1 div {
+    margin: 1rem 1.5rem 1rem 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 #lua{
     height: 80px;
     width: 80px;
@@ -31,7 +39,7 @@
     margin-top: 0.5rem;
 }
 #logo-ceara{
-    width: 600px;
+    width: 45vw;
     height: 120px;
 }
 
