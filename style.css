@@ -14,11 +14,10 @@
 .onda1{
     z-index: 0;
     /* transform: rotateY(180deg); */
-    background: url(imagens/wave\ \(3\).png);
+    background: url("imagens/wave\ \(3\).png");
     background-size: cover;
     min-height: 40vh;
     padding-left: 0.8rem;
-
     display: flex;
 }
 
@@ -45,7 +44,15 @@
 
 .header-imagens {
     z-index: 1;
-    transform: rotateY(360deg);
+}
+#onda2{
+    z-index: 0;
+    /* transform: rotateY(180deg); */
+    background: url("imagens/wave\ \(1\).png");
+    background-size: cover;
+    min-height: 40vh;
+    padding-left: 0.8rem;
+    display: flex;
 }
 
 /* Menu lateral */
