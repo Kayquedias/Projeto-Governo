@@ -33,6 +33,7 @@
 #lua{
     width: 65px;
     height: 65px;
+    z-index: 10;
 }
 
 #logo-ceara{
@@ -49,23 +50,23 @@
 #menu{
     width: 45px;
     margin-top: 0.5rem;
-    cursor: pointer;
 }
 
 input[type='checkbox'] {
     display: none;
 }
 
-input[type='checkbox']:checked ~ nav {
-    left: 0;
+.onda1 input[type='checkbox']:checked ~ nav {
+    top: 0;
 }
 
 nav {
-    background-color: #308130;
+    background-color: #308130b0;
     width: 350px;
-    height: 100%;
+    height: fit-content;
     position: absolute;
-    left: -350px;
+    top: -211px;
+    left: 0;
     z-index: 2;
     transition: 0.5s;
 }
@@ -73,6 +74,7 @@ nav {
 label {
     z-index: 3;
     height: 45px;
+    cursor: pointer;
 }
 
 ul {
@@ -92,4 +94,19 @@ a {
 a:hover {
     color: #ffd700;
     background: #40a840;
+}
+
+/* Modo Noturno */
+
+input[type='checkbox'].night-mode:checked ~ label img[class='sol-icone'] {
+    display: block;
+}
+input[type='checkbox'].night-mode:checked ~ label img:last-child{
+    display: none;
+}
+
+.sol-icone {
+    display: none;
+    width: px;
+    height: 70px;
 }
