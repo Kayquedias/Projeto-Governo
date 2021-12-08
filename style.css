@@ -110,3 +110,20 @@ input[type='checkbox'].night-mode:checked ~ label img:last-child{
     width: px;
     height: 70px;
 }
+
+
+.onda2{
+    z-index: 0;
+    background: url(imagens/onda-laranja-cortada.png) no-repeat;
+    background-size: 100% 30vh;
+    min-height: 40vh;
+    margin-top: 50px;
+    padding-left: 0.8rem;
+    display: flex;
+    align-items: end;
+}
+.onda2 > img {
+    margin-bottom: 70px;
+    height: 50px;
+    width: 50px;
+}
