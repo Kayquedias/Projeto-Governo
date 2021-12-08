@@ -7,7 +7,7 @@
 #inicio {
     height: 800px;
     width: auto;
-    background-image: url("imagens/igm-fundo2.jpg");
+    background-image: url("../imagens/igm-fundo2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
@@ -21,7 +21,7 @@ header {
 .onda1 {
     z-index: 0;
     /* transform: rotateY(180deg); */
-    background: url(imagens/onda-verde-cortada.png) no-repeat;
+    background: url(../imagens/onda-verde-cortada.png) no-repeat;
     background-size: 100% 25vh;
     width: 100%;
     min-height: 40vh;
@@ -124,7 +124,7 @@ input[type='checkbox'].night-mode:checked~label img:last-child {
 
 .onda2 {
     z-index: 0;
-    background: url(imagens/onda-laranja-cortada.png) no-repeat;
+    background: url(../imagens/onda-laranja-cortada.png) no-repeat;
     background-size: 100% 30vh;
     min-height: 25vh;
     margin-top: 100px;
