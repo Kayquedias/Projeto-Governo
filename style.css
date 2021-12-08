@@ -9,36 +9,39 @@
     background-image: url("imagens/igm-fundo2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    position: relative;
-}
-#onda1{
     z-index: 0;
-    height: 400px;
-    width: 100%;
-    justify-content: center;
+}
+.onda1{
+    z-index: 0;
+    /* transform: rotateY(180deg); */
+    background: url(imagens/wave\ \(3\).png);
+    background-size: cover;
+    min-height: 40vh;
+    padding-left: 0.8rem;
+
+    display: flex;
 }
 #lua{
-    z-index: 1;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 #menu{
     height: 50px;
     width: 50px;
+    margin-top: 0.5rem;
 }
 #logo-ceara{
-    margin-top: 50px;
     width: 600px;
+    height: 120px;
 }
-#menu{
-    height: 50px;
-    width: 50px;
+
+.header-imagens {
+    z-index: 1;
+    transform: rotateY(360deg);
 }
-img{
-    width: 100px;
-    height: 100px;
-}
+
+/* Menu lateral */
+
 .menu {
     display: block;
 }
