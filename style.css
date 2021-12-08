@@ -14,24 +14,23 @@
 .onda1{
     z-index: 0;
     /* transform: rotateY(180deg); */
-    background: url(imagens/wave\ \(3\).png);
-    background-size: cover;
+    background: url(imagens/onda-verde-cortada.png) no-repeat;
     min-height: 40vh;
     padding-left: 0.8rem;
-
     display: flex;
 }
 
 .onda1 div {
-    margin: 1rem 1.5rem 1rem 3rem;
+    margin: 1rem;
+    margin-left: 0.6em;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 #lua{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
 }
 #menu{
     height: 50px;
@@ -41,6 +40,7 @@
 #logo-ceara{
     width: 45vw;
     height: 120px;
+    margin-top: 0.8rem;
 }
 
 .header-imagens {
