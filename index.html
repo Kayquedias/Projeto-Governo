@@ -6,16 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Governo do Ceara</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
+    
+    <div id="aaa">
+        <p>OALA</p>
+    </div>   
     <header>
         <div id="inicio">
             <div class="onda1">
                 <input type="checkbox" id="sidemenu">
                 <label for="sidemenu">
-                    <img src="imagens/menu-hamburguer.png" id="menu" class="header-imagens">
+                    <img src="imagens/menu-white.png" id="menu" class="header-imagens">
                 </label>
 
                 <nav>
@@ -26,26 +31,61 @@
                     </ul>
                 </nav>
 
-                <div>
+                <div class="icones">
                     <img src="imagens/logo-ceara.svg" id="logo-ceara" class="header-imagens">
-                    <img src="imagens/icn-lua.png" id="lua" class="header-imagens">
+
+                    <input type="checkbox" id="search">
+                    <label for="search">
+                        <img src="imagens/search-white.png" alt="buscar" class="buscador">
+                    </label>
+
+                    <input type="checkbox" id="nightmode" class="night-mode" >
+                    <label for="nightmode" class="label">
+                        <img src="imagens/sun-icon.png" alt="sol - modo noturno ligado" class="sol-icone">
+                        <img src="imagens/icn-lua.png" id="lua" class="header-imagens">
+                    </label>
+
+                    <input type="text" class="campo-de-busca"
+                        placeholder="Procure Aqui... Ex: Água, INSS, Conta de luz">
                 </div>
             </div>
             <div class="onda2">
-                <div id="idioma">
+                <div class="idiomas">
                     <img src="imagens/pt-br.png">
                     <img src="imagens/en.png">
                     <img src="imagens/fr.png">
                     <img src="imagens/es.png">
                 </div>
-                    <div id="coronavirus">
-                        <img src="imagens/ze-gota.png" id="ze-gota">
-                        <p>CORONA<span>VÍRUS</span></p>
-                        <p><a href="https://coronavirus.ceara.gov.br/">Saiba Mais</a></p>
-                    </div>
+                <div class="coronavirus">
+                    <img src="imagens/ze-gota.png" id="ze-gota">
+                    <h1>
+                        <a href="https://coronavirus.ceara.gov.br/" target="_blank"><span>CORONA</span>VÍRUS</a>
+                        <a href="https://coronavirus.ceara.gov.br/" target="_blank">Saiba Mais</a>
+                    </h1>
+                </div>
             </div>
         </div>
     </header>
-</body>
+    <main>
+        <section>
+            <div class="noticia">
+                <div>
+                    <h1>Vacinação Covid-19: Vacinados já somam 80% da população do Ceará</h1>
+                    <p>Covid-19 tem diminuição de casos desde Agosto desse ano</p>
+                </div>
+            </div>
+            <div class="noticia">
+                <div>
+                    <h1>Mulher encontrada sorrindo com cartão de vacinação</h1>
+                    <p>Dona maria com sua filha anastácia se vacinaram hoje</p>
+                </div>
+
+            </div>
+        </section>
+        <section>
+        </section>
+     
+    </main>
+    </body>
 
 </html>
