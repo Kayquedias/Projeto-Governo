@@ -6,28 +6,28 @@
 
 body {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #inicio {
     height: 800px;
-    width: auto;
+    width: 100%;
     background-image: url("../imagens/igm-fundo2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 750px;
+    overflow-x: hidden;
     z-index: 0;
 }
 
 header {
     max-height: 875px;
-    overflow: hidden;
 }
 
 .onda1 {
     z-index: 0;
     /* transform: rotateY(180deg); */
     background: url(../imagens/onda-verde-cortada.png) no-repeat;
-    background-size: 100% 25vh;
+    background-size: 100% 11rem;
     width: 100%;
     height: 40vh;
     padding-left: 0.8rem;
@@ -43,15 +43,16 @@ header {
 }
 
 #lua {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
+    margin-top: 4px;
     z-index: 10;
 }
 
 #logo-ceara {
-    width: 45%;
+    width: 40vw;
     height: calc(120px - 1vw);
-    margin-top: 1%;
+    margin-top: 10px;
 }
 
 .header-imagens {
@@ -86,7 +87,7 @@ nav {
 
 label {
     z-index: 3;
-    height: 45px;
+    height: 20px;
     cursor: pointer;
 }
 
@@ -109,6 +110,11 @@ a:hover {
     background: #40a840;
 }
 
+.onda1 .icones {
+    display: grid;
+    grid-template-columns: 3fr 0.15fr 0.1fr;
+}
+
 /* Modo Noturno */
 
 input[type='checkbox'].night-mode:checked~label img[class='sol-icone'] {
@@ -121,8 +127,9 @@ input[type='checkbox'].night-mode:checked~label img:last-child {
 
 .sol-icone {
     display: none;
-    width: px;
-    height: 70px;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
 }
 
 
@@ -141,14 +148,6 @@ input[type='checkbox'].night-mode:checked~label img:last-child {
 
     width: 100%;
 }
-
-/* .onda2 div:last-child {
-    width: 100%;
-    height: 3px;
-    background-color: #0A7636;
-    z-index: 2;
-    align-self: end;
-} */
 
 .onda2 .idiomas {
     height: fit-content;
@@ -175,7 +174,7 @@ input[type='checkbox'].night-mode:checked~label img:last-child {
     font-family: sans-serif;
 }
 
-h1 {
+.coronavirus h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,19 +184,19 @@ h1 {
     letter-spacing: 0;
 }
 
-h1 a span {
+.coronavirus h1 a span {
     font-weight: 800;
     color: #0A7636;
 }
 
-h1>a,
-h1>a:hover {
+.coronavirus h1>a,
+.coronavirus h1>a:hover {
     background-color: transparent;
     color: white;
     padding: 0;
 }
 
-h1 a:last-child {
+.coronavirus h1 a:last-child {
     font-size: 0.5em;
     color: #0000ff;
     text-decoration: underline;
@@ -206,8 +205,8 @@ h1 a:last-child {
 /* Barra de Procurar */
 
 label .buscador {
-    width: 28px;
-    margin-left: 42vw;
+    width: 24px;
+    margin-top: 5px;
 }
 
 .campo-de-busca {
