@@ -32,6 +32,7 @@ header {
     height: 40vh;
     padding-left: 0.8rem;
     display: flex;
+    transition: 1s;
 }
 
 .onda1 div {
@@ -53,6 +54,7 @@ header {
     width: 40vw;
     height: calc(120px - 1vw);
     margin-top: 10px;
+    transition: 1s;
 }
 
 .header-imagens {
@@ -121,7 +123,7 @@ input[type='checkbox'].night-mode:checked~label img[class='sol-icone'] {
     display: block;
 }
 
-input[type='checkbox'].night-mode:checked~label img:last-child {
+input[type='checkbox'].night-mode:checked~.label img:last-child {
     display: none;
 }
 
@@ -147,6 +149,7 @@ input[type='checkbox'].night-mode:checked~label img:last-child {
     top: 278px;
 
     width: 100%;
+    transition: 1s ease-in-out;
 }
 
 .onda2 .idiomas {
@@ -227,16 +230,4 @@ label .buscador {
 
 input[type='checkbox']#search:checked~.campo-de-busca {
     right: 3rem;
-}
-
-input[type='checkbox']#search:checked~label .buscador {
-    display: none;
-}
-
-input[type='checkbox']#search:checked~label .buscador-preto {
-    display: block;
-}
-
-label .buscador-preto {
-    display: none;
 }
