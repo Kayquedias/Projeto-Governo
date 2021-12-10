@@ -8,14 +8,14 @@ function modoNoturno() {
     const main = document.querySelector('main')
     
     if (checkbox.checked) {
-        divOndaVerde.style = 'background: url(../imagens/Green-Wave-Dark.png) no-repeat;'
+        divOndaVerde.style = 'background: url(../imagens/Green-Wave-Dark.png) no-repeat; background-size: 100% 11rem;'
         divOndaAmarela.style = 'background: url(../imagens/Yellow-Wave-Dark.png) no-repeat;'
         iconeBuscar.src = '../imagens/search-black.png'
         menu.src = '../imagens/menu-hamburguer.png'
         mainBg.style = 'background-color: #000000'
         main.style = 'background-color: #000000'
     } else {
-        divOndaVerde.style = 'background: url(../imagens/onda-verde-cortada.png) no-repeat;'
+        divOndaVerde.style = 'background: url(../imagens/onda-verde-cortada.png) no-repeat; background-size: 100% 11rem;'
         divOndaAmarela.style = 'background: url(../imagens/onda-laranja-cortada.png) no-repeat;'
         iconeBuscar.src = '../imagens/search-white.png'
         menu.src = '../imagens/menu-white.png'
