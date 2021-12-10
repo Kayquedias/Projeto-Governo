@@ -27,3 +27,5 @@ function modoNoturno() {
 };
 
 document.querySelector('#nightmode').addEventListener('click', modoNoturno);
+
+

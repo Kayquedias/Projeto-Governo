@@ -231,3 +231,54 @@ label .buscador {
 input[type='checkbox']#search:checked~.campo-de-busca {
     right: 3rem;
 }
+#destaques {
+    background-color: #0A7636;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+#destaques > img {
+    height: 250px;
+    width: auto;
+}
+#destaques > h1{
+    position: absolute;
+    z-index: 2;
+    font-size: 40px;
+    margin-bottom: 30%;
+    color: #0A7636;
+} 
+#publicacao {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+#publicacao > section {
+    height: 300px;
+    width: 180px;
+    background-color: red;
+    text-align: center;
+}
+#publicacao > section > p{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#publicacao > section > img{
+    height: 50px;
+    margin-top: 10px;
+}
+#publicacao > h1{
+    z-index: 2;
+    position: absolute;
+    margin-bottom: 400px;
+    font-size: 40px;
+    color: #FFA401;
+} 
