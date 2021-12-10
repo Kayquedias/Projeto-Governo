@@ -32,7 +32,7 @@ header {
     height: 40vh;
     padding-left: 0.8rem;
     display: flex;
-    transition: 1s;
+    transition: 0.8s;
 }
 
 .onda1 div {
@@ -63,7 +63,7 @@ header {
 
 /* Menu lateral */
 #menu {
-    width: 42px;
+    width: 40px;
     margin-top: 1rem;
     margin-left: 0.2em;
 }
@@ -132,6 +132,7 @@ input[type='checkbox'].night-mode:checked~.label img:last-child {
     width: 35px;
     height: 35px;
     margin-bottom: 15px;
+    margin-left: -8px;
 }
 
 
@@ -149,7 +150,7 @@ input[type='checkbox'].night-mode:checked~.label img:last-child {
     top: 278px;
 
     width: 100%;
-    transition: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
 }
 
 .onda2 .idiomas {
