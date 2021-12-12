@@ -1,0 +1,95 @@
+@font-face {
+    font-family: black-bt;
+    src: url(geometric-706-black-bt.ttf);
+}
+
+footer {
+    width: 100%;
+    border-top: 5px solid #0e9b46;
+    background-color: #f2b31f;
+}
+
+footer .row {
+    width: 100%;
+    background: linear-gradient(to bottom, #f2a30c 20%, #f2b31f);
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.row ul {
+    width: 40%;
+    padding: 0.6rem 1em;
+    margin: 0;
+    flex: 1 1 auto;
+
+    display: flex;
+}
+
+.row a, .foo-links a {
+    font-size: 1.1em;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.redes-sociais p, .foo-links ul li:first-child a {
+    font: normal bold 1.3em black-bt;
+    color: #fff;
+}
+
+.row a:hover, .foo-links a:hover {
+    background: transparent;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.redes-sociais {
+    min-width: 20%;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.redes-sociais p {
+    min-width: 150px;
+}
+
+.redes-sociais a {
+    width: 40px;
+    padding: 0;
+    flex: 0 1 auto;
+
+    display: flex;
+    align-items: center;
+    transition: 0.8s ease-in-out;
+}
+
+.redes-sociais a:hover  {
+    transform: rotate(360deg);
+}
+
+.redes-sociais img {
+    width: 100%;
+}
+
+.foo-links {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.foo-links img {
+    grid-column: 1 / 4;
+    justify-self: center;
+    align-self: center;
+    width: 75%;
+}
+
+.foo-links ul {
+    margin: 2rem 0;
+}
+
+.foo-links a {
+    padding: 5px 0;
+}

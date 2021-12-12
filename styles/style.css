@@ -15,7 +15,7 @@ html {
     width: 100%;
     background-image: url("../imagens/igm-fundo2.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 750px;
+    background-size: 100% 760px;
     overflow-x: hidden;
     z-index: 0;
 }
@@ -142,7 +142,7 @@ input[type='checkbox'].night-mode:checked~.label img:last-child {
     z-index: 0;
     background: url('../imagens/onda-laranja-cortada.png') no-repeat;
     background-size: 100% 185.5px;
-    margin-top: 100px;
+    margin-top: 340px;
     padding-left: 0.8rem;
     display: flex;
     justify-content: space-between;
