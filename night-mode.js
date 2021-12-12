@@ -2,7 +2,7 @@ function modoNoturno() {
     const divOndaVerde = document.querySelector('.onda1');
     const divOndaAmarela = document.querySelector('.onda2');
     const checkbox = document.querySelector('#nightmode');
-    const iconeBuscar = document.querySelector('.buscador');
+    const iconeBuscar = document.querySelector('img.buscador');
     const menu = document.querySelector('#menu');
     const mainBg = document.querySelector('body')
     const main = document.querySelector('main')
