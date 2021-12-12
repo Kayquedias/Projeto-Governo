@@ -17,18 +17,181 @@
     label .buscador {
         margin-left: -2em;
     }
+
+    .publi a p {
+        font-size: 14px;
+        padding: 0 5px;
+        margin-top: 8px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 772px) {
     #inicio {
-        background-size: 100% 550px;
+        background-size: 880px 540px;
     }
 
     .onda1 {
         background-size: 100% 8rem !important;
     }
 
+    main {
+        row-gap: 4rem;
+    }
+
     #logo-ceara {
         margin-top: -1rem;
     }
+
+    #publicacao .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container .container-destaques {
+        height: 50rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 2fr);
+        row-gap: 1rem;
+        justify-items: center;
+
+    }
+
+    .container-destaques a img {
+        max-width: 100vw;
+        width: 240px;
+        height: 320px;
+    }
+
+    #menu {
+        width: 30px;
+    }
+
+    .campo-de-busca {
+        min-width: 12em;
+    }
+
+    input[type='checkbox']#search:checked~.campo-de-busca {
+        right: 1.5rem;
+    }
+
+    .noticia, .noticia:nth-child(2) {
+        width: 77%;
+        background-size: cover;
+        margin: 2.5rem auto;
+    }
+
+    .noticias-lateral {
+        display: none;
+    }
+
+    section:nth-child(1) {
+        grid-column: 1 / 3;
+    }
 }
+
+@media screen and (max-width: 680px) {
+    .onda1 {
+        background-size: 100% 6rem !important;
+    }
+    
+    .onda1 .icones {
+        margin-top: 0;
+        margin-right: 0.6em;
+    }
+
+    .onda2 {
+        margin-top: 135px;
+        background-size: 100% 150px;
+    }
+
+    .onda2 .idiomas {
+        margin-top: 6.5rem;
+    }
+
+    label #lua, label .buscador {
+        margin-top: .65rem;
+    }
+
+    label .sol-icone {
+        margin-top: .30em;
+    }
+    
+    .onda2 #ze-gota {
+        width: 140px;
+        height: 140px;
+        margin-bottom: -1.35rem;
+        margin-right: -2em;
+    }
+
+    .coronavirus h1 a:first-child {
+        font-size: .9em;
+    }
+
+    .coronavirus h1 {
+        margin-right: .7em;
+        margin-left: -0.495em;
+    }
+
+    .campo-de-busca {
+        top: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #menu {
+        width: 25px;
+        height: 25px;
+        margin-top: .8rem;
+    }
+    
+    .container .container-destaques {
+        grid-template-columns: 1fr 1fr;
+        height: 40rem;
+    }
+
+    .container-destaques a img {
+        width: 180px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .onda2 .idiomas img{
+        width: 34px;
+        height: 34px;
+        margin-top: .5rem;
+    }
+
+    .onda2 .idiomas {
+        margin-left: -10px;
+    }
+    
+    .onda2 #ze-gota {
+        width: 120px;
+        height: 120px;
+        margin-bottom: -2.4rem;
+        margin-right: -2em;
+    }
+
+    .coronavirus {
+        min-width: 10%;
+    }
+
+    .coronavirus h1 {
+        margin-right: 5px;
+        margin-left: -15px;
+    }
+
+    ul {
+        margin-top: 50px;
+    }
+
+    .campo-de-busca {
+        min-width: 10.8em;
+    }
+
+    input[type='checkbox']#search:checked~.campo-de-busca {
+        right: 0.4rem;
+    }
+}
+
