@@ -19,6 +19,7 @@ main {
     z-index: 1;
     display: grid;
     grid-template-columns: 6fr 4fr;
+    grid-auto-rows: auto;
     row-gap: 6rem;
 }
 
@@ -68,8 +69,8 @@ main {
 /* Noticias Barra Lateral */
 
 .noticias-lateral {
-    height: fit-content;
-    margin: 1.5rem 0;
+    height: 848px;
+    margin: 1.5rem 0 0;
     border: 1.2px solid #b6b6b6e3;
     box-shadow: 0.6px 0.2px 4px rgba(0, 0, 0, 0.349);
 }
@@ -82,7 +83,7 @@ main {
 }
 
 .conteudo-ltr {
-    padding: 1rem;
+    padding: 1.6rem 1rem;
     display: grid;
     grid-template-columns: 1fr 0.3fr;
     align-items: center;
@@ -98,18 +99,18 @@ main {
 }
 
 .conteudo-ltr img {
-    width: 130px;
+    width: 125px;
 }
 
 .conteudo-ltr a:first-child {
-    font: normal bold 1em BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: normal bold 0.92em BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #0e9b46;
     width: 90%;
+    padding: 0 0.8em;
 }
 
 .mais-cnt {
     display: flex;
-    align-items: center;
     align-items: center;
 }
 
@@ -175,6 +176,10 @@ main {
     display: inline-block;
 }
 
+.container-destaques a:last-child {
+    display: none;
+}
+
 .container-destaques img {
     max-width: 20vw;
 }
@@ -194,7 +199,7 @@ main {
     z-index: 2;
     font-size: 40px;
     font-family: black-bt;
-    margin:     0 auto 20px;
+    margin: 0 auto 20px;
     color: #FFA401;
 }
 
