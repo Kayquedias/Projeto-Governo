@@ -14,19 +14,30 @@
 
 <body>
     <header>
-        <div id="inicio">
-            <div class="onda1">
+        <div id="inicio" style='background-image: url("../imagens/igm-fundo2.jpg");'>
+            <div class="onda1" style="background: url('../imagens/onda-verde-cortada.png') no-repeat;" >
                 <input type="checkbox" id="sidemenu">
                 <label for="sidemenu">
                     <img src="imagens/menu-white.png" id="menu" class="header-imagens">
                 </label>
 
                 <nav>
-                    <ul>
+                    <ul class="hover-idiomas">
                         <li><a href="#">Imprensa</a></li>
                         <li><a href="#">Serviços</a></li>
                         <li><a href="#">Governo</a></li>
-                        <li><a href="http://">Idiomas <span>&#9660</span></a></li>
+                        <li id="sub-list">
+                            <a>Idiomas <span>&#9662</span></a>
+
+                            <ul class="list" style="display: none;" >
+                                <li><a href="#">Inglês</a></li>
+                                <li><a href="#">Espanhol</a></li>
+                                <li><a href="#">Francês</a></li>
+                                <li><a href="#">Português</a></li>
+                            </ul>
+                        </li> 
+                        <li><a href="http://" target="_blank" rel="noopener noreferrer">Cagece</a></li>
+                        <li><a href="http://" target="_blank" rel="noopener noreferrer">Enel</a></li>
                     </ul>
                 </nav>
 
@@ -108,9 +119,9 @@
         </section>
 
         <section id="destaques">
-            <h1>Destaques</h1>
-            <div class="container">
-                <div class="container-destaques">
+            <h1 class="sm-background">Destaques</h1>
+            <div class="sm-background container">
+                <div class="sm-background container-destaques">
                     <a href=""><img src="imagens/destaque 1.png"></a>
                     <a href=""><img src="imagens/destaque 2.png"></a>
                     <a href=""><img src="imagens/destaque 3.png"></a>
@@ -125,28 +136,28 @@
             <div class="container">
                 <div class="publi">
                     <a href="">
-                        <img src="imagens/icon-1.png">
+                        <img class="img-publi1" src="imagens/icon-1.png">
                         <h3>Documentos Oficiais</h3>
                         <p>Boletins, portarias, notas tecnicas e demais publicações oficiais</p>
                     </a>
                 </div>
                 <div class='publi'>
                     <a href="">
-                        <img src="imagens/icon-2.png">
+                        <img class="img-publi2" src="imagens/icon-2.png">
                         <h3>Trilhas e Treinamentos</h3>
                         <p>Fluxos explicados com simulações de procedimentos</p>
                     </a>
                 </div>
                 <div class="publi">
                     <a href="">
-                        <img src="imagens/icon-3.png">
+                        <img class="img-publi3" src="imagens/icon-3.png">
                         <h3>Pesquisa Científica</h3>
                         <p>Indicações de artigos e bases de dados sobre o Sars-Cov-2</p>
                     </a>
                 </div>
                 <div class="publi">
                     <a href="">
-                        <img src="imagens/icon-4.png">
+                        <img class="img-publi4" src="imagens/icon-4.png">
                         <h3>Farmacovigilância na Covid-19</h3>
                         <p>Notificação de uso de drogas experimentais contra o coronavírus</p>
                     </a>
@@ -200,7 +211,7 @@
         </div>
     </footer>
 
-
+    <script src="index.js"></script>
     <script src="night-mode.js"></script>
 </body>
 
